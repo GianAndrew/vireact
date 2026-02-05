@@ -7,6 +7,9 @@ export default defineConfig({
 	plugins: [react(), tailwindcss()],
 	base: '/vireact',
 	preview: {
-		allowedHosts: ['vireact-app-stvxh.ondigitalocean.app'],
+		allowedHosts: ['vireact-app-stvxh.ondigitalocean.app', '*.ondigitalocean.app', 'localhost', '.ondigitalocean.app'],
+	},
+	server: {
+		allowedHosts: ['vireact-app-stvxh.ondigitalocean.app', '*.ondigitalocean.app', 'localhost', '.ondigitalocean.app'],
 	},
 });
