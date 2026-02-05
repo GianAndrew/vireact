@@ -1,5 +1,3 @@
-import React from 'react';
-
 const About = () => {
 	return (
 		<div className="h-screen min-h-screen bg-slate-50">
