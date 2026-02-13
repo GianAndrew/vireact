@@ -8,6 +8,7 @@ const Home = () => {
 		<main className="h-screen min-h-screen bg-slate-50">
 			<div className="container mx-auto py-2">
 				<h1 className="text-md font-medium text-slate-700">Home Page</h1>
+				<p>Hello World</p>
 				<div className="mt-4">
 					<p className="text-slate-600 mb-2">You clicked the button {count} times.</p>
 					<div className="flex gap-2">
